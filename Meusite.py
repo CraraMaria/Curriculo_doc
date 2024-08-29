@@ -78,10 +78,9 @@ with col2:
     st.caption("Inglês avançado")
 
 
-col10 = st.columns(1)
-with col10:
-      
-      st.link_button("GitHub", "https://github.com/CraraMaria")
+st.markdown
+
+st.link_button("GitHub", "https://github.com/CraraMaria")
 
 
 
