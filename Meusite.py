@@ -46,7 +46,7 @@ with col1:
     st.write("Centro de Ensino Médio Setor Leste, Asa Sul, DF")
     st.caption("Ensino Médio 2018")
     
-st.link_button("GitHub", "https://github.com/CraraMaria") st.link_button("LinkedIn ", "https://github.com/CraraMaria")
+
 
 with col2:
 
