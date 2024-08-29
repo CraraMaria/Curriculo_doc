@@ -79,7 +79,7 @@ with col2:
 
 
 
-
+st.link_button("GitHub", "https://github.com/CraraMaria")
 
 
 
