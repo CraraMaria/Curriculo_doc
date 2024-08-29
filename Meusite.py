@@ -46,7 +46,7 @@ with col1:
     st.write("Centro de Ensino Médio Setor Leste, Asa Sul, DF")
     st.caption("Ensino Médio 2018")
     
-
+st.link_button("GitHub", "https://github.com/CraraMaria") st.link_button("LinkedIn ", "https://github.com/CraraMaria")
 
 with col2:
 
@@ -77,10 +77,6 @@ with col2:
     st.write(":blue[IDIOMAS]")
     st.caption("Inglês avançado")
 
-
-st.markdown
-
-st.link_button("GitHub", "https://github.com/CraraMaria")
 
 
 
