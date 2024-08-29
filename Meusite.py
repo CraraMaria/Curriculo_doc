@@ -21,8 +21,8 @@ with col1:
     st.divider() 
 
     st.subheader(":blue[PROJETOS]")
-    st.write("Projeto Currículo — _Projeto Phyton_")
-    st.caption("Objetivo de criar esse currículo em um site usando a biblioteca Streamlit do Phyton.")
+    st.write("Projeto Currículo — _Projeto Pyhton_")
+    st.caption("Objetivo de criar esse currículo em um site usando a biblioteca Streamlit do Pyhton.")
     st.write("Projeto Guia do Universitário — _Projeto Integrador_")
     st.caption("Objetivo de criar uma solução prática através de uma plataforma web para ajudar aos calouros a contratar monitores e dicas sobre a faculdade e estudos.")
     st.write("Projeto Metamorfo — _Projeto de Extensão_")
@@ -41,6 +41,7 @@ with col1:
     st.subheader(":blue[FORMAÇÃO]")
     st.write("Instituto de Educação Superior de Brasília (IESB), Asa Sul, DF")
     st.caption("Bacharelado em Ciência da Computação")
+    st.caption("2023- formatura 2027")
     st.write("Centro de Ensino Médio Setor Leste, Asa Sul, DF")
     st.caption("Ensino Médio 2018")
     
