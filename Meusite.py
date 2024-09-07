@@ -16,7 +16,7 @@ col1, col2 = st.columns([4,1])
 
 with col1:
     st.title("Maria Clara Fontenele Silva")
-    st.write("Estudante de Ciência da Computação. Forte interesse em Ciência de Dados e segurança digital. Possuo experiência em projetos acadêmicos e voluntários e busco oportunidade de estágio para aplicar e expandir conhecimentos")
+    st.write("Estudante de Ciência da Computação. Interesse em Ciência de Dados e Desenvolvimento Fullstack. Experiência em projetos acadêmicos e voluntários e estou em busca de um estágio para aplicar meus conhecimentos.")
     
     st.divider() 
 
