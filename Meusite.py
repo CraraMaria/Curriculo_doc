@@ -61,7 +61,7 @@ with col1:
     with button_col3:
         st.link_button("Medium", "https://medium.com/@fontenelesilvamariaclara")
           
-    with button_col3:
+    with button_col4:
         st.link_button("Dev.to", "https://dev.to/maria_clarafontenele")
 
 
