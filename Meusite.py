@@ -48,7 +48,7 @@ with col1:
 
     st.divider()
 
-    st.subheader(":blue[CONTATOS]")
+    st.subheader(":blue[CONTATO]")
 
     button_col1, button_col2, button_col3, button_col4 = st.columns([1, 1, 1, 1])
 
