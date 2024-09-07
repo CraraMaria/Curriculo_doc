@@ -59,12 +59,12 @@ with col2:
     st.divider()
 
     st.write(":blue[COMPETÊNCIAS]")
-    st.caption("Programação em Phyton")
-    st.caption("Programação em C")
-    st.caption("Programação em Java")
-    st.caption("Análise de Dados")
-    st.caption("Desenvolvimento web")
-    st.caption("Gestão de Projetos")
+    st.caption("Programação em C; Java; Python.")
+    st.caption("Análise de Dados: Excel, Python(Pandas, NumPy), SQL.")
+    st.caption("Desenvolvimento web HTML e CSS.")
+    st.caption("Ferramentas IDE: Eclipse; Visual Studio Code.")
+    st.caption("Gestão de projetos; Metodologias: Scrum, Kanban. Com Microsoft Project, Trello e Jira.")
+    st.caption("")
 
     st.divider()
 
