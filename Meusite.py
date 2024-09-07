@@ -45,7 +45,13 @@ with col1:
     st.caption("formatura final do segundo semestre de 2026")
     st.write("Centro de Ensino Médio Setor Leste, Asa Sul, DF")
     st.caption("Ensino Médio 2018")
-    
+
+    st.divider()
+
+
+   st.header("LinkedIn")
+   st.image("https://media.licdn.com/dms/image/D5603AQHFQsQP80cmcA/profile-displayphoto-shrink_400_400/0/1695386771046?e=1717632000&v=beta&t=y-T6HjrVoJIL6TGQ6HIqjJz2LMBzK51PbAx1D2RD8N8", width=200 )
+   st.link_button("LinkedIn", "https://github.com/CraraMaria")
 
 
 with col2:
