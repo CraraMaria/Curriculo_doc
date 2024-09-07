@@ -48,7 +48,8 @@ with col1:
 
     st.divider()
 
-    st.link_button("LinkedIn", "https://github.com/CraraMaria")
+    st.link_button("Github", "https://github.com/CraraMaria")
+    st.link_button("LinkedIn", "https://www.linkedin.com/in/maria-clara-fontenele-silva-334a08292/")
 
 
 with col2:
