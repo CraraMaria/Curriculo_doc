@@ -51,10 +51,10 @@ with col1:
     button_col1, button_col2 = st.columns([1, 1])
 
     with button_col1:
-        st.markdown("[Github](https://github.com/CraraMaria)", unsafe_allow_html=True)
+        st.link_button("Github", "https://github.com/CraraMaria") 
 
     with button_col2:
-        st.markdown("[LinkedIn](https://www.linkedin.com/in/maria-clara-fontenele-silva-334a08292/)", unsafe_allow_html=True)
+        st.link_button("LinkedIn", "https://www.linkedin.com/in/maria-clara-fontenele-silva-334a08292/")
 
 
 with col2:
