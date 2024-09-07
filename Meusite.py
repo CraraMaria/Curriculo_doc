@@ -79,7 +79,7 @@ with col2:
     st.write(":blue[COMPETÊNCIAS]")
     st.caption("Programação em C; Java; Python.")
     st.caption("Análise de Dados: Excel, Python(Pandas, NumPy), SQL.")
-    st.caption("Desenvolvimento web HTML e CSS.")
+    st.caption("Desenvolvimento web HTML, Streamlit e CSS.")
     st.caption("Ferramentas IDE: Eclipse; Visual Studio Code.")
     st.caption("Gestão de projetos; Metodologias: Scrum, Kanban. Com Microsoft Project, Trello e Jira.")
     st.caption("")
