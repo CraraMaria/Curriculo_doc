@@ -12,7 +12,7 @@ st.set_page_config(
       }
     )
 
-col1, col2 = st.columns([4,1])
+col1, col2 = st.columns([4,2])
 
 with col1:
     st.title("Maria Clara Fontenele Silva")
