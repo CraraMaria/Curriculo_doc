@@ -40,8 +40,7 @@ with col1:
 
     st.subheader(":blue[FORMAÇÃO]")
     st.write("Instituto de Educação Superior de Brasília (IESB), Asa Sul, DF")
-    st.caption("Bacharelado em Ciência da Computação")
-    st.caption("Quarto semestre")
+    st.caption("Bacharelado em Ciência da Computação - Quarto semestre")
     st.caption("formatura final do segundo semestre de 2026")
     st.write("Centro de Ensino Médio Setor Leste, Asa Sul, DF")
     st.caption("Ensino Médio 2018")
