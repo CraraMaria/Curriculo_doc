@@ -104,7 +104,7 @@ pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Goo
 
 # Verifica se o arquivo existe
 import os
-if os.path.exists(pdf_file_path):
+if os.path.exists(Currículo_Maria_Clara_Fontenele - Documentos Google.pdf):
     # Abre o arquivo PDF no modo binário (rb = read binary)
     with open(pdf_file_path, "rb") as file:
         pdf_data = file.read()
@@ -113,7 +113,7 @@ if os.path.exists(pdf_file_path):
     st.download_button(
         label="Baixar PDF",
         data=pdf_data,
-        file_name="Currículo_Maria_Clara_Fontenele - Documentos Google.pdf",
+        file_name="Currículo_Maria_Clara_Fontenele.pdf",
         mime="application/pdf"
     )
 else:
