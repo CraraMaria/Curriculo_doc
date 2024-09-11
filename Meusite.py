@@ -63,8 +63,8 @@ with col1:
     with button_col4:
         st.link_button("Dev.to", "https://dev.to/maria_clarafontenele")
 
-    col1 = st.columns([1])
 
+col1 = st.columns([1])
 with col1:
 # Nome do arquivo PDF
     pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
