@@ -99,22 +99,20 @@ with col2:
 st.divider()
 st.write(":blue[BAIXAR CURRÍCULO EM PDF]")
 
-# Nome do arquivo PDF com o caminho relativo
-pdf_file_path = "CraraMaria/Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
+# URL do arquivo PDF no GitHub
+pdf_url = "https://raw.githubusercontent.com/CraraMaria/Curriculo_doc/main/Curr%C3%ADculo_Maria_Clara_Fontenele%20-%20Documentos%20Google.pdf"
 
-# Verifica se o arquivo existe
-if os.path.exists(pdf_file_path):
-    with open(pdf_file_path, "rb") as pdf_file:
-        PDFbyte = pdf_file.read()
+# Faz o download do PDF
+response = requests.get(pdf_url)
+pdf_data = response.content
 
-    st.download_button(
-        label="Baixar PDF",
-        data=PDFbyte,
-        file_name="Currículo_Maria_Clara_Fontenele.pdf",
-        mime='application/pdf'
-    )
-else:
-    st.error("O arquivo PDF não foi encontrado no caminho especificado.")
+# Cria o botão de download
+st.download_button(
+    label="Baixar PDF",
+    data=pdf_data,
+    file_name="Currículo_Maria_Clara_Fontenele.pdf",
+    mime="application/pdf"
+)
 
 
 
