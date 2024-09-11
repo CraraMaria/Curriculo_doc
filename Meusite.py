@@ -99,6 +99,7 @@ with col2:
     st.write(":blue[BAIXAR CURRÍCULO EM PDF]")
 
 
+# Nome do arquivo PDF com o caminho relativo
 pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
 
 # Abre o arquivo PDF no modo binário (rb = read binary)
