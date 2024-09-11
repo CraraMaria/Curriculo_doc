@@ -63,6 +63,20 @@ with col1:
     with button_col4:
         st.link_button("Dev.to", "https://dev.to/maria_clarafontenele")
 
+    col1 = st.columns([1])
+
+    with col1:
+    pdf_file_path = "Currículo_Maria_Clara_Fontenele.pdf"
+
+    with open(Currículo_Maria_Clara_Fontenele, "rb") as file:
+    pdf_data = file.read()
+
+    st.download_button(
+    label="Baixar PDF",
+    data=pdf_data,
+    file_name="Currículo_Maria_Clara_Fontenele.pdf",
+    mime="application/pdf"
+    )
 
 with col2:
 
