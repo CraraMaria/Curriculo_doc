@@ -64,22 +64,6 @@ with col1:
         st.link_button("Dev.to", "https://dev.to/maria_clarafontenele")
 
 
-col1 = st.columns([1])
-with col1:
-# Nome do arquivo PDF
-    pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
-
-# Abre o arquivo PDF no modo binário (rb = read binary)
-    with open(pdf_file_path, "rb") as file:
-       pdf_data = file.read()
-
-# Cria o botão de download
-    st.download_button(
-       label="Baixar PDF",
-       data=pdf_data,
-       file_name="Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf",
-       mime="application/pdf"
-     )
 
 with col2:
 
@@ -110,6 +94,23 @@ with col2:
 
     st.write(":blue[IDIOMAS]")
     st.caption("Inglês avançado")
+
+    st.divider()
+    st.write(":blue[IDIOMAS]")
+# Nome do arquivo PDF
+    pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
+
+# Abre o arquivo PDF no modo binário (rb = read binary)
+    with open(pdf_file_path, "rb") as file:
+       pdf_data = file.read()
+
+# Cria o botão de download
+    st.download_button(
+       label="Baixar PDF",
+       data=pdf_data,
+       file_name="Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf",
+       mime="application/pdf"
+     )
 
 
 
