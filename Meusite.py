@@ -95,9 +95,6 @@ with col2:
     st.write(":blue[IDIOMAS]")
     st.caption("Inglês avançado")
 
-    st.divider()
-    st.write(":blue[BAIXAR CURRÍCULO EM PDF]")
-
 
 st.divider()
 st.write(":blue[BAIXAR CURRÍCULO EM PDF]")
