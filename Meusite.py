@@ -100,7 +100,7 @@ st.divider()
 st.write(":blue[BAIXAR CURRÍCULO EM PDF]")
 
 # Nome do arquivo PDF com o caminho relativo
-pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
+pdf_file_path = "CraraMaria/Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
 
 # Verifica se o arquivo existe
 if os.path.exists(pdf_file_path):
