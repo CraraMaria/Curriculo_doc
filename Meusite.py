@@ -66,17 +66,20 @@ with col1:
     col1 = st.columns([1])
 
     with col1:
+# Nome do arquivo PDF
     pdf_file_path = "Currículo_Maria_Clara_Fontenele.pdf"
 
-    with open(Currículo_Maria_Clara_Fontenele, "rb") as file:
-    pdf_data = file.read()
+# Abre o arquivo PDF no modo binário (rb = read binary)
+    with open(pdf_file_path, "rb") as file:
+       pdf_data = file.read()
 
+# Cria o botão de download
     st.download_button(
-    label="Baixar PDF",
-    data=pdf_data,
-    file_name="Currículo_Maria_Clara_Fontenele.pdf",
-    mime="application/pdf"
-    )
+       label="Baixar PDF",
+       data=pdf_data,
+       file_name="Currículo_Maria_Clara_Fontenele.pdf",
+       mime="application/pdf"
+     )
 
 with col2:
 
