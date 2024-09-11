@@ -103,8 +103,7 @@ st.write(":blue[BAIXAR CURRÍCULO EM PDF]")
 pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
 
 # Verifica se o arquivo existe
-import os
-if os.path.exists(https://github.com/CraraMaria/Curriculo_doc/blob/main/Curr%C3%ADculo_Maria_Clara_Fontenele%20-%20Documentos%20Google.pdf):
+if os.path.exists(pdf_file_path):
     # Abre o arquivo PDF no modo binário (rb = read binary)
     with open(pdf_file_path, "rb") as file:
         pdf_data = file.read()
