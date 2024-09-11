@@ -99,20 +99,28 @@ with col2:
     st.write(":blue[BAIXAR CURRÍCULO EM PDF]")
 
 
+st.divider()
+st.write(":blue[BAIXAR CURRÍCULO EM PDF]")
+
 # Nome do arquivo PDF com o caminho relativo
 pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
 
-# Abre o arquivo PDF no modo binário (rb = read binary)
-with open(pdf_file_path, "rb") as file:
-    pdf_data = file.read()
+# Verifica se o arquivo existe
+import os
+if os.path.exists(pdf_file_path):
+    # Abre o arquivo PDF no modo binário (rb = read binary)
+    with open(pdf_file_path, "rb") as file:
+        pdf_data = file.read()
 
-# Cria o botão de download
-st.download_button(
-    label="Baixar PDF",
-    data=pdf_data,
-    file_name="Currículo_Maria_Clara_Fontenele - Documentos Google.pdf",
-    mime="application/pdf"
-)
+    # Cria o botão de download
+    st.download_button(
+        label="Baixar PDF",
+        data=pdf_data,
+        file_name="Currículo_Maria_Clara_Fontenele - Documentos Google.pdf",
+        mime="application/pdf"
+    )
+else:
+    st.error("O arquivo PDF não foi encontrado no caminho especificado.")
 
 
 
