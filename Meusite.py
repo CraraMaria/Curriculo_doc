@@ -99,15 +99,20 @@ with col2:
 st.divider()
 st.write(":blue[BAIXAR CURRÍCULO EM PDF]")
 
+# Nome do arquivo PDF com o caminho relativo
+pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
 
-with open("Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf", "rb") as pdf_file:
-    PDFbyte = pdf_file.read()
+# Verifica se o arquivo existe
+if os.path.exists(pdf_file_path):
+    with open(pdf_file_path, "rb") as pdf_file:
+        PDFbyte = pdf_file.read()
 
-st.download_button(label="Baixar PD",
-                    data=PDFbyte,
-                    file_name="CV_Maria_clara.pdf",
-                    mime='application/octet-stream')
-
+    st.download_button(
+        label="Baixar PDF",
+        data=PDFbyte,
+        file_name="Currículo_Maria_Clara_Fontenele.pdf",
+        mime='application/pdf'
+    )
 else:
     st.error("O arquivo PDF não foi encontrado no caminho especificado.")
 
