@@ -96,22 +96,22 @@ with col2:
     st.caption("Inglês avançado")
 
     st.divider()
-    st.write(":blue[IDIOMAS]")
-# Nome do arquivo PDF
-    pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
+    st.write(":blue[BAIXAR CURRÍCULO EM PDF]")
+
+
+pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
 
 # Abre o arquivo PDF no modo binário (rb = read binary)
-    with open(pdf_file_path, "rb") as file:
-       pdf_data = file.read()
+with open(pdf_file_path, "rb") as file:
+    pdf_data = file.read()
 
 # Cria o botão de download
-    st.download_button(
-       label="Baixar PDF",
-       data=pdf_data,
-       file_name="Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf",
-       mime="application/pdf"
-     )
-
+st.download_button(
+    label="Baixar PDF",
+    data=pdf_data,
+    file_name="Currículo_Maria_Clara_Fontenele - Documentos Google.pdf",
+    mime="application/pdf"
+)
 
 
 
