@@ -102,17 +102,8 @@ st.write(":blue[BAIXAR CURRÍCULO EM PDF]")
 # URL do arquivo PDF no GitHub
 pdf_url = "https://raw.githubusercontent.com/CraraMaria/Curriculo_doc/main/Curr%C3%ADculo_Maria_Clara_Fontenele%20-%20Documentos%20Google.pdf"
 
-# Faz o download do PDF
-response = requests.get(pdf_url)
-pdf_data = response.content
-
 # Cria o botão de download
-st.download_button(
-    label="Baixar PDF",
-    data=pdf_data,
-    file_name="Currículo_Maria_Clara_Fontenele.pdf",
-    mime="application/pdf"
-)
+st.markdown(f'<a href="{pdf_url}" download="Currículo_Maria_Clara_Fontenele.pdf">Baixar PDF</a>', unsafe_allow_html=True)
 
 
 
