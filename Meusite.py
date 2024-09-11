@@ -67,7 +67,7 @@ with col1:
 
     with col1:
 # Nome do arquivo PDF
-    pdf_file_path = "Currículo_Maria_Clara_Fontenele.pdf"
+    pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
 
 # Abre o arquivo PDF no modo binário (rb = read binary)
     with open(pdf_file_path, "rb") as file:
@@ -77,7 +77,7 @@ with col1:
     st.download_button(
        label="Baixar PDF",
        data=pdf_data,
-       file_name="Currículo_Maria_Clara_Fontenele.pdf",
+       file_name="Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf",
        mime="application/pdf"
      )
 
