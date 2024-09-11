@@ -65,7 +65,7 @@ with col1:
 
     col1 = st.columns([1])
 
-    with col1:
+with col1:
 # Nome do arquivo PDF
     pdf_file_path = "Curriculo_doc/Currículo_Maria_Clara_Fontenele - Documentos Google.pdf"
 
