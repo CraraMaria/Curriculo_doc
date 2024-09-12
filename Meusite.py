@@ -102,7 +102,7 @@ st.divider()
 pdf_url = "https://raw.githubusercontent.com/CraraMaria/Curriculo_doc/main/Curr%C3%ADculo_Maria_Clara_Fontenele%20-%20Documentos%20Google.pdf"
 
 # Cria o botão de download
-st.markdown(f'<a href="{pdf_url}" download="Currículo_Maria_Clara_Fontenele.pdf">BAIXAR CURRÍCULO EM PDF</a>', unsafe_allow_html=True)
+st.markdown(f'<a href="{pdf_url}" download="Maria_Clara_CV.pdf">BAIXAR CURRÍCULO EM PDF</a>', unsafe_allow_html=True)
 
 
 
