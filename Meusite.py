@@ -99,10 +99,11 @@ with col2:
 st.divider()
 
 # URL do arquivo PDF no GitHub
-pdf_url = "https://raw.githubusercontent.com/CraraMaria/Curriculo_doc/main/Maria_Clara_CV.pdf"  # Atualize com o link correto
+pdf_url = "https://raw.githubusercontent.com/CraraMaria/Curriculo_doc/main/Currículo_Maria_Clara_Fontenele (3).pdf"  # Atualize com o link correto
 
 # Cria o botão de download
-st.markdown(f'<a href="{pdf_url}" download="Maria_Clara_CV.pdf">Baixar PDF</a>', unsafe_allow_html=True)
+st.markdown(f'<a href="{pdf_url}" download="Currículo_Maria_Clara_Fontenele (3).pdf">Baixar PDF</a>', unsafe_allow_html=True)
+
 
 
 
