@@ -80,7 +80,7 @@ with col2:
     st.caption("Programação em C; Java; Python.")
     st.caption("Análise de Dados: Excel, Python(Pandas, NumPy), SQL.")
     st.caption("Desenvolvimento web HTML, Streamlit e CSS.")
-    st.caption("Ferramentas IDE: Eclipse; Visual Studio Code.")
+    st.caption("Ferramentas IDE: Eclipse; Visual Studio Code; Spring Boot.")
     st.caption("Gestão de projetos; Metodologias: Scrum, Kanban. Com Microsoft Project, Trello e Jira.")
     st.caption("")
 
