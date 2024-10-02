@@ -61,7 +61,7 @@ with col1:
         st.link_button("Medium", "https://medium.com/@fontenelesilvamariaclara")
           
     with button_col4:
-        st.link_button("Dev.to", "https://dev.to/maria_clarafontenele")
+        st.link_button("Stack Overflow", "https://stackoverflow.com/users/27588517/maria-clara-fontenele-silva?tab=topactivity")
 
 
 
