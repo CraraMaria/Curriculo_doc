@@ -1,5 +1,3 @@
-// colocar algo sobre pacote office
-
 import streamlit as st
 import pandas as pd
 
