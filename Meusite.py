@@ -101,7 +101,6 @@ with col2:
     st.caption("Capacidade de apresentar e defender ideias e projetos de forma clara.")
     st.caption("Aptidão para feedbacks construtivos e resolução de conflitos.")
 
-
     st.divider()
 
     st.write(":blue[IDIOMAS]")
