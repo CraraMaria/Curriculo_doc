@@ -94,6 +94,16 @@ with col2:
 
     st.divider()
 
+    st.write(":blue[Comunicação]")
+    st.caption("Trabalho em equipe e colaboração eficaz.")
+    st.caption("Facilidade em transmitir informações técnicas para audiências não técnicas.")
+    st.caption("Proatividade na comunicação de problemas e soluções.")
+    st.caption("Capacidade de apresentar e defender ideias e projetos de forma clara.")
+    st.caption("Aptidão para feedbacks construtivos e resolução de conflitos.")
+
+
+    st.divider()
+
     st.write(":blue[IDIOMAS]")
     st.caption("Inglês avançado")
 
