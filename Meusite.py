@@ -92,11 +92,6 @@ with col2:
 
     st.divider()
 
-    st.write(":blue[Comunicação]")
-    st.caption("Proatividade na comunicação de problemas e soluções.")
-
-    st.divider()
-
     st.write(":blue[IDIOMAS]")
     st.caption("Inglês avançado")
 
