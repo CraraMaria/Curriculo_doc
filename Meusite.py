@@ -1,10 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-tab1, tab2 = st.tabs(["Aba 1", "Aba 2"])
-with tab1:
-    st.write("Conteúdo da Aba 1")
-
 st.set_page_config(
       page_title="Maria Clara Fontenele Silva", 
       page_icon= "🍓", layout="centered", 
@@ -16,6 +12,10 @@ st.set_page_config(
       }
     )
 
+tab1, tab2 = st.tabs(["Aba 1", "Aba 2"])
+with tab1:
+    st.write("Conteúdo da Aba 1")
+    
 col1, col2 = st.columns([4,1])
 
 with col1:
