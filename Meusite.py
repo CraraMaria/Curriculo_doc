@@ -19,23 +19,6 @@ with col1:
     st.write("Estudante de Ciência da Computação. Interesse em Ciência de Dados e Desenvolvimento Fullstack. Experiência em projetos acadêmicos e voluntários e estou em busca de um estágio para aplicar meus conhecimentos.")
 
     st.divider() 
-    
-    st.subheader(":blue[COMPETÊNCIAS]")
-    st.write("")
-    st.caption("")
-    st.write("Programação")
-    st.caption("C; Java; Python.")
-    st.write("Analíse de Dados")
-    st.caption("Excel, Python(Pandas, NumPy), SQL.")
-    st.write("Desenvolvimento web")
-    st.caption("HTML, Streamlit e CSS.")
-    st.write("Ferramentas IDE")
-    st.caption("Eclipse; Visual Studio Code; Spring Boot.")
-    st.write("Gestão de projetos")
-    st.caption("Scrum, Kanban. Com Microsoft Project, Trello e Jira.")
-
-    
-    st.divider() 
 
     st.subheader(":blue[PROJETOS]")
     st.write("Projeto Currículo — _Projeto Pyhton_")
