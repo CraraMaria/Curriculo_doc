@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+tab1, tab2 = st.tabs(["Aba 1", "Aba 2"])
+with tab1:
+    st.write("Conteúdo da Aba 1")
+
 st.set_page_config(
       page_title="Maria Clara Fontenele Silva", 
       page_icon= "🍓", layout="centered", 
@@ -104,5 +108,6 @@ pdf_url = "https://raw.githubusercontent.com/CraraMaria/Curriculo_doc/main/Curr�
 # Cria o botão de download
 st.markdown(f'<a href="{pdf_url}" download="Currículo_Maria_Clara.pdf">Baixar em PDF</a>', unsafe_allow_html=True)
 
-
+with tab2:
+    st.write("Conteúdo da Aba 2")
 
