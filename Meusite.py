@@ -99,12 +99,6 @@ with tab2:
     st.write("Mais sobre mim")
     st.image("fotodeperfil.png", caption="Maria Clara", width=200)
 
-    st.write("Mais sobre mim")
-    
+    st.write("EM CONSTRUÇÃO 🛠👩‍🚒")
 
-    # Centralizando a imagem usando st.image com alinhamento de estilo
-    col1, col2, col3 = st.columns([1, 2, 1])
-
-    with col2:
-        st.image("fotodeperfil.png", caption="Maria Clara", width=200)
 
