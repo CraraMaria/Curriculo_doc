@@ -101,14 +101,10 @@ with tab2:
 
     st.write("Mais sobre mim")
     
-    # Centralizando a imagem
-    st.markdown(
-        """
-        <div style="text-align: center;">
-            <img src="fotodeperfil.png" alt="Maria Clara" width="200">
-            <p>Maria Clara</p>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+
+    # Centralizando a imagem usando st.image com alinhamento de estilo
+    col1, col2, col3 = st.columns([1, 2, 1])
+
+    with col2:
+        st.image("fotodeperfil.png", caption="Maria Clara", width=200)
 
