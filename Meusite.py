@@ -97,10 +97,18 @@ st.markdown(f'<a href="{pdf_url}" download="Currículo_Maria_Clara.pdf">Baixar e
 with tab2:
     # Conteúdo para a aba 2
     st.write("Mais sobre mim")
+    st.image("fotodeperfil.png", caption="Maria Clara", width=200)
 
-    left_co, cent_co,last_co = st.columns(3)
-    with cent_co:
-    st.image("fotodeperfil.png", caption="Maria Clara", width=200)
+    st.write("Mais sobre mim")
     
-    st.image("fotodeperfil.png", caption="Maria Clara", width=200)
+    # Centralizando a imagem
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <img src="fotodeperfil.png" alt="Maria Clara" width="200">
+            <p>Maria Clara</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
