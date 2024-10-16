@@ -97,5 +97,10 @@ st.markdown(f'<a href="{pdf_url}" download="Currículo_Maria_Clara.pdf">Baixar e
 with tab2:
     # Conteúdo para a aba 2
     st.write("Mais sobre mim")
+
+    left_co, cent_co,last_co = st.columns(3)
+    with cent_co:
+    st.image("fotodeperfil.png", caption="Maria Clara", width=200)
+    
     st.image("fotodeperfil.png", caption="Maria Clara", width=200)
 
