@@ -97,5 +97,5 @@ st.markdown(f'<a href="{pdf_url}" download="Currículo_Maria_Clara.pdf">Baixar e
 with tab2:
     # Conteúdo para a aba 2
     st.write("Em construção 👷‍♂️🛠")
-    st.image("fotodeperfil.png", caption="Euzinha", width=50)
+    st.image("fotodeperfil.png", caption="Euzinha", width=200)
 
