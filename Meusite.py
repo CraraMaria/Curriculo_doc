@@ -94,11 +94,11 @@ pdf_url = "https://raw.githubusercontent.com/CraraMaria/Curriculo_doc/main/Curr�
 # Cria o botão de download
 st.markdown(f'<a href="{pdf_url}" download="Currículo_Maria_Clara.pdf">Baixar em PDF</a>', unsafe_allow_html=True)
 
-# with tab2:
+ with tab2:
     # Conteúdo para a aba 2
-  # st.write("Mais sobre mim")
+    st.write("Mais sobre mim")
   # st.image("fotodeperfil.png", caption="Maria Clara", width=200)
 
-  # st.write("EM CONSTRUÇÃO 🛠👩‍🚒")
+    st.write("EM CONSTRUÇÃO 🛠👩‍🚒")
 
 
