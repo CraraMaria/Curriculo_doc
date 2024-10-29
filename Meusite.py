@@ -49,7 +49,7 @@ with tab1:
         button_col1, button_col2, button_col3, button_col4 = st.columns([1, 1, 1, 1])
 
         with button_col1:
-            st.link_button("Github", "https://github.com/CraraMaria") 
+            st.link_button("🐱Github", "https://github.com/CraraMaria") 
 
         with button_col2:
             st.link_button("🔗LinkedIn", "https://www.linkedin.com/in/maria-clara-fontenele-silva-334a08292/")
