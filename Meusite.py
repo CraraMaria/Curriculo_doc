@@ -52,7 +52,7 @@ with tab1:
             st.link_button("Github", "https://github.com/CraraMaria") 
 
         with button_col2:
-            st.link_button("LinkedIn", "https://www.linkedin.com/in/maria-clara-fontenele-silva-334a08292/")
+            st.link_button("🔗LinkedIn", "https://www.linkedin.com/in/maria-clara-fontenele-silva-334a08292/")
           
         with button_col3:
             st.link_button("🌊Overflow", "https://stackoverflow.com/users/27588517/maria-clara-fontenele-silva?tab=topactivity")
