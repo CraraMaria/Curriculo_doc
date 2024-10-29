@@ -58,7 +58,7 @@ with tab1:
             st.link_button("🌊Overflow", "https://stackoverflow.com/users/27588517/maria-clara-fontenele-silva?tab=topactivity")
           
         with button_col4:
-            st.link_button("Medium", "https://medium.com/@fontenelesilvamariaclara")
+            st.link_button(" 📝Medium", "https://medium.com/@fontenelesilvamariaclara")
 
 
     with col2:
