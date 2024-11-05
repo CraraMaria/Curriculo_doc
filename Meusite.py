@@ -44,8 +44,8 @@ with tab1:
 
         st.divider()
         st.subheader(":blue[EXPERIÊNCIA]")
-        st.write("Curso Pleno de Língua Estrangeira Moderna Inglês — **Concluído em 2017**")
-        st.caption("Centro Interescolar de Línguas do GAMA")
+        st.write("Trabalhei com gerenciamento de airbnb")
+        st.caption("por algum tempo")
 
         st.divider()
 
