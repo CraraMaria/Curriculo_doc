@@ -44,7 +44,14 @@ with tab1:
 
         st.divider()
         st.subheader(":blue[EXPERIÊNCIA]")
-        st.write("Trabalhei com gerenciamento de airbnb")
+        st.write("Gerente de Operações de Airbnb")
+        st.write("""
+Responsável pelo gerenciamento de imóveis no Airbnb, incluindo:
+- Coordenação de reservas, check-ins e check-outs de hóspedes.
+- Comunicação e suporte aos hóspedes para garantir avaliações positivas.
+- Manutenção e limpeza dos imóveis entre estadias.
+- Otimização do anúncio e das estratégias de preços para maximizar a ocupação.
+""")
         st.caption("por algum tempo")
 
         st.divider()
