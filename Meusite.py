@@ -95,7 +95,7 @@ Responsável pelo gerenciamento de imóveis no Airbnb, incluindo:
         
         st.divider()
         st.write(":blue[IDIOMAS]")
-        st.caption("Inglês avançado")
+        st.caption("Língua Moderna Inglês avançado")
 
 
 st.divider()
