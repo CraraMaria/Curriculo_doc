@@ -95,7 +95,7 @@ Responsável pelo gerenciamento de imóveis no Airbnb, incluindo:
         
         st.divider()
         st.write(":blue[IDIOMAS]")
-        st.caption("Língua Moderna Inglês avançado")
+        st.caption("Língua Moderna Inglês avançado.")
 
 
 st.divider()
@@ -108,8 +108,8 @@ st.markdown(f'<a href="{pdf_url}" download="Currículo_Maria_Clara.pdf">Baixar e
 
 with tab2:
     # Conteúdo para a aba 2
-    # st.write("Mais sobre mim")
-    # st.image("fotodeperfil.png", caption="Maria Clara", width=200)
+    st.write("Mais sobre mim")
+    st.image("fotodeperfil.png", caption="Maria Clara", width=200)
 
     st.write("EM CONSTRUÇÃO 🛠👩‍🚒")
 
