@@ -85,6 +85,7 @@ Responsável pelo gerenciamento de imóveis no Airbnb, incluindo:
         st.caption("Ferramentas: Eclipse, Visual Studio Code, Spring Boot.")
         st.caption("Gestão de Projetos: Scrum, Kanban, Microsoft Project, Trello, Jira.")
         st.caption("Pacote Office: Word, Excel, PowerPoint.")
+        st.caption("Sistemas Operacionais: Linux, Windows.")
 
         st.divider()
         st.write(":blue[PROJETOS VOLUNTÁRIOS]")
