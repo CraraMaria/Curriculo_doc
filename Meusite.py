@@ -65,10 +65,10 @@ Responsável pelo gerenciamento de imóveis no Airbnb, incluindo:
             st.link_button("🔗 LinkedIn", "https://www.linkedin.com/in/maria-clara-fontenele-silva-334a08292/")
           
         with button_col3:
-            st.link_button("🌊 Overflow", "https://stackoverflow.com/users/27588517/maria-clara-fontenele-silva?tab=topactivity")
+            st.link_button(" 📝 Medium", "https://medium.com/@fontenelesilvamariaclara")
           
         with button_col4:
-            st.link_button(" 📝 Medium", "https://medium.com/@fontenelesilvamariaclara")
+            st.link_button("🌊 Overflow", "https://stackoverflow.com/users/27588517/maria-clara-fontenele-silva?tab=topactivity")
 
 
     with col2:
