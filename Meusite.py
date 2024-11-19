@@ -39,8 +39,8 @@ with tab1:
         st.subheader(":blue[FORMAÇÃO]")
         st.write("Instituto de Educação Superior de Brasília (IESB), Asa Sul, DF")
         st.caption("Bacharelado em Ciência da Computação - Quarto semestre, com previsão de formatura em 2026.")
-        st.write("Centro de Ensino Médio Setor Leste, Asa Sul, DF")
-        st.caption("Ensino Médio - Concluído em 2018")
+        st.write("Colégio Pódion, Asa Norte, DF")
+        st.caption("Ensino Médio - Concluído em 2021")
 
         st.divider()
         st.subheader(":blue[EXPERIÊNCIA PROFISSIONAL]")
