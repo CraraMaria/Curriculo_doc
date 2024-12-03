@@ -20,15 +20,22 @@ with tab1:
         st.title("Maria Clara Fontenele Silva")
         st.write("Estudante de Ciência da Computação. Interesse em Ciência de Dados e Desenvolvimento Fullstack.")
         st.write("Experiência em projetos acadêmicos e voluntários e em busca de estágio para aplicar conhecimentos.")
-
+        
         st.divider()
-        st.subheader(":blue[PROJETOS]")
+        st.subheader(":blue[EXPERIÊNCIA]")
         st.write("**Projeto Currículo** — _Projeto Python_")
         st.caption("Criação deste currículo interativo usando Streamlit.")
         st.write("**Projeto Guia do Universitário** — _Projeto Integrador_")
         st.caption("Solução prática para calouros, com dicas sobre a faculdade e contratação de monitores.")
         st.write("**Projeto Metamorfo** — _Projeto de Extensão_")
         st.caption("Aprimoramento da segurança digital para leigos, com foco na tranquilidade ao usar tecnologia.")
+
+        st.divider()
+        st.subheader(":blue[PROJETOS]")
+        st.write("**BENU SISTEMAS**")
+        st.caption("Software de Gestão Completo Para Controladoras de Pragas")
+        st.caption("O BENU é um sistema ERP, projetado para otimizar a gestão de recursos e processos nas empresas")
+    
         
         st.divider()
         st.subheader(":blue[CERTIFICAÇÃO]")
