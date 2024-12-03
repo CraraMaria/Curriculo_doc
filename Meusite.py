@@ -18,8 +18,8 @@ with tab1:
     
     with col1:
         st.title("Maria Clara Fontenele Silva")
-        st.write("Estudante de Ciência da Computação. Interesse em Ciência de Dados e Desenvolvimento Fullstack.")
-        st.write("Experiência em projetos acadêmicos e voluntários e em busca de estágio para aplicar conhecimentos.")
+        st.write("Estudante de Ciência da Computação. Desenvolvimento de Software e Interesse em Ciência de Dados.")
+        st.write("Experiência de trabalho em empresa de Desenvolvimento e em projetos acadêmicos.")
         
         st.divider()
         st.subheader(":blue[EXPERIÊNCIA]")
