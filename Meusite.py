@@ -23,7 +23,7 @@ with tab1:
         
         st.divider()
         st.subheader(":blue[EXPERIÊNCIA]")
-        st.write("**BENU SISTEMAS**")
+        st.write("**BENU SISTEMAS - Suporte a software**")
         st.caption("Software de Gestão Completo Para Controladoras de Pragas")
         st.caption("O BENU é um sistema ERP, projetado para otimizar a gestão de recursos e processos nas empresas")
 
