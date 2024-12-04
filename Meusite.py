@@ -22,7 +22,7 @@ with tab1:
         st.write("Experiência de trabalho em empresa de Desenvolvimento. Experiência de projetos acadêmicos.")
         
         st.divider()
-        st.subheader(":blue[EXPERIÊNCIA]")
+        st.subheader(":blue[EXPERIÊNCIA Tesfo]")
         st.write("**BENU SISTEMAS - Desenvolvimento de Software**")
         st.caption("O BENU é um sistema ERP, projetado para otimizar a gestão de recursos e processos nas empresas. Software de Gestão Online Completo Para Controladoras de Pragas")
         st.write("**Cargo: Desenvolvimento Java**")
