@@ -37,7 +37,7 @@ with tab1:
         
         st.divider()
         st.subheader(":blue[PROJETOS]")
-        st.write("**Projeto condomínio New Garden** — _Projeto de Programação Orientada a Objetos_")
+        st.write("**[Projeto condomínio New Garden](https://github.com/CraraMaria/centroautomotivo)** — _Projeto de Programação Orientada a Objetos_")
         st.caption("Este projeto consiste em um aplicativo voltado para a gestão de condomínios, com funcionalidades para reserva de áreas comuns, comunicação entre moradores e administração.")
         st.write("**[Projeto Currículo](https://curriculodoc-clara.streamlit.app)** — _Projeto Python_")
         st.caption("Criação deste currículo interativo usando Streamlit.")
