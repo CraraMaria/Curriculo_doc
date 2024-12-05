@@ -41,13 +41,10 @@ with tab1:
         st.caption("Criação deste currículo interativo usando Streamlit.")
         st.write("**Projeto Guia do Universitário** — _Projeto Integrador_")
         st.caption("Solução prática para calouros, com dicas sobre a faculdade e contratação de monitores.")
-        st.write("**Projeto Metamorfo** — _Projeto de Extensão_")
-        st.caption("Aprimoramento da segurança digital para leigos, com foco na tranquilidade ao usar tecnologia.")
 
-    
-        
+
         st.divider()
-        st.subheader(":blue[CERTIFICAÇÃO]")
+        st.subheader(":blue[CERTIFICAÇÃO EM INGLÊS]")
         st.write("Curso Pleno de Língua Estrangeira Moderna Inglês — **Concluído em 2017**")
         st.caption("Centro Interescolar de Línguas do GAMA")
 
