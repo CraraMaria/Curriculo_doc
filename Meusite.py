@@ -25,7 +25,7 @@ with tab1:
         st.subheader(":blue[EXPERIÊNCIA PROFISSIONAL]")
         st.write("**BENU SISTEMAS ERP - Desenvolvimento de Software**")
         st.caption("O BENU é um sistema ERP, projetado para otimizar a gestão de recursos e processos nas empresas. Software de Gestão Online Completo Para Controladoras de Pragas")
-        st.write("**Cargo: Suporte a Software**")
+        st.write("**Cargo: Suporte a Software (Estágio)**")
         st.caption("""
 - Prestava Suporte Técnico para o software ERP, auxiliando usuários na resolução de problemas e dúvidas operacionais;
 - Identificar e reportar bugs ao time de desenvolvimento, contribuindo para a melhoria contínua do sistema:
