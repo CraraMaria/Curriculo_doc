@@ -22,13 +22,18 @@ with tab1:
         st.write("Experiência de trabalho em empresa de Desenvolvimento. Experiência de projetos acadêmicos.")
         
         st.divider()
-        st.subheader(":blue[EXPERIÊNCIA Tesfo]")
+        st.subheader(":blue[EXPERIÊNCIA PROFISSIONAL]")
         st.write("**BENU SISTEMAS ERP - Desenvolvimento de Software**")
         st.caption("O BENU é um sistema ERP, projetado para otimizar a gestão de recursos e processos nas empresas. Software de Gestão Online Completo Para Controladoras de Pragas")
-        st.write("**Cargo: Desenvolvimento Java**")
-        
-        st.write("**BENU SISTEMAS ERP - Desenvolvimento de Software**")
-        st.write("**Cargo: Suporte a software**")
+        st.write("**Cargo: Suporte a Software**")
+        st.caption("""
+- Prestava Suporte Técnico para o software ERP, auxiliando usuários na resolução de problemas e dúvidas operacionais;
+- Identificar e reportar bugs ao time de desenvolvimento, contribuindo para a melhoria contínua do sistema:
+- Colaborava com o time de desenvolvimento na correção de erros e melhorias do sistema;
+- Fazia a construção de base de conhecimento do sistema;
+
+""")
+
         
         st.divider()
         st.subheader(":blue[PROJETOS]")
