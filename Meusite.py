@@ -119,6 +119,12 @@ Sou Maria Clara Fontenele Silva, uma estudante apaixonada por resolver problemas
 Meu objetivo é me tornar uma desenvolvedora de destaque, com interesse especial em Ciência de Dados e Desenvolvimento Full Stack. 
 Além da tecnologia, gosto de [seu hobby, como leitura, música, etc.].
 """)
+    st.title("Projetos")
+    st.subheader("Projeto Currículo")
+    st.write("""
+Este é um projeto feito com Streamlit, onde criei um currículo interativo para treinar minhas habilidades de desenvolvimento web. 
+[Veja o código no GitHub](#)
+""")
 
     st.write("EM CONSTRUÇÃO 🛠👩‍🚒")
 
