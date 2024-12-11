@@ -111,6 +111,7 @@ st.markdown(f'<a href="{pdf_url}" download="Currículo_Maria_Clara.pdf">Baixar e
 with tab2:
     # Conteúdo para a aba 2
     # tentar colocar foto interativa
+    st.write("PÁGINA EM CONSTRUÇÃO 🛠👩‍🚒")
     st.write("Mais sobre mim")
     st.image("fotodeperfil.png", caption="Clara Fontenele", width=200)
     st.title("Sobre Mim")
@@ -133,6 +134,6 @@ with st.form(key='contact_form'):
     submit = st.form_submit_button("Enviar")
     if submit:
         st.success("Mensagem enviada com sucesso!")
-    st.write("EM CONSTRUÇÃO 🛠👩‍🚒")
+    
 
 
