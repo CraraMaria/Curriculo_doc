@@ -113,6 +113,12 @@ with tab2:
     # tentar colocar foto interativa
     st.write("Mais sobre mim")
     st.image("fotodeperfil.png", caption="Clara Fontenele", width=200)
+    st.title("Sobre Mim")
+    st.write("""
+Sou Maria Clara Fontenele Silva, uma estudante apaixonada por resolver problemas com tecnologia e sempre em busca de aprender algo novo. 
+Meu objetivo é me tornar uma desenvolvedora de destaque, com interesse especial em Ciência de Dados e Desenvolvimento Full Stack. 
+Além da tecnologia, gosto de [seu hobby, como leitura, música, etc.].
+""")
 
     st.write("EM CONSTRUÇÃO 🛠👩‍🚒")
 
