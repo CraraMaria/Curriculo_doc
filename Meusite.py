@@ -126,14 +126,13 @@ Este é um projeto feito com Streamlit, onde criei um currículo interativo para
 [Veja o código no GitHub](#)
 """)
     st.title("Contato")
-    with st.form(key='contact_form'):
+with st.form(key='contact_form'):
     name = st.text_input("Nome")
     email = st.text_input("Email")
     message = st.text_area("Mensagem")
     submit = st.form_submit_button("Enviar")
     if submit:
         st.success("Mensagem enviada com sucesso!")
-
     st.write("EM CONSTRUÇÃO 🛠👩‍🚒")
 
 
