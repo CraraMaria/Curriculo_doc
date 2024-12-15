@@ -65,7 +65,6 @@ O projeto foi desenvolvido com o objetivo de:
 ## Links Importantes
 
 - [Projeto Hospedado](https://curriculodoc-clara.streamlit.app)
-- [Repositório no GitHub](https://github.com/CraraMaria/Curriculo_doc)
 - [Meu LinkedIn](https://www.linkedin.com/in/maria-clara-fontenele-silva-334a08292/)
 
 ---
