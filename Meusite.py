@@ -116,15 +116,15 @@ with tab2:
     st.image("fotodeperfil.png", caption="Clara Fontenele", width=200)
     st.title("Sobre Mim")
     st.write("""
-Sou Maria Clara Fontenele Silva, uma estudante apaixonada por resolver problemas com tecnologia e sempre em busca de aprender algo novo. 
+Sou Maria Clara Fontenele Silva, uma estudante de tecnologia e sempre em busca de aprender algo novo. 
 Meu objetivo é me tornar uma desenvolvedora de destaque, com interesse especial em Ciência de Dados e Desenvolvimento Full Stack. 
-Além da tecnologia, gosto de [seu hobby, como leitura, música, etc.].
 """)
+    # Além da , .
     st.title("Projetos")
     st.subheader("Projeto Currículo")
     st.write("""
 Este é um projeto feito com Streamlit, onde criei um currículo interativo para treinar minhas habilidades de desenvolvimento web. 
-[Veja o código no GitHub](#)
+[Veja o código no GitHub](https://github.com/CraraMaria/Curriculo_doc)
 """)
     st.title("Contato")
 with st.form(key='contact_form'):
